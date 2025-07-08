@@ -76,7 +76,7 @@ sns.heatmap(
     xticklabels=class_labels,
     yticklabels=class_labels,
 )
-plt.title("Confusion Matrix – Celebrity Face Recognition")
+plt.title("Confusion Matrix – CNN Celebrity Face Recognition")
 plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.tight_layout()
