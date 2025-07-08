@@ -44,21 +44,25 @@ source venv/bin/activate        # Linux/macOS
 venv\Scripts\activate           # Windows
 
 pip install tensorflow matplotlib seaborn scikit-learn kagglehub
-
+```
 ## 🚀 Exécution
 
 Téléchargement du dataset :
-> python download_celebrity_dataset.py
-
+```bash
+python download_celebrity_dataset.py
+```
 Découpage du dataset :
-> python split_celebrity_dataset.py
-
+```bash
+python split_celebrity_dataset.py
+```
 Entraînement du modèle :
-> python train.py
-
+```bash
+python train.py
+```
 Évaluation des performances :
+```bash
 > python evaluate.py
-
+```
 ## 📌 Auteurs & Crédits
 
 Dataset par Vishesh1412 sur Kaggle
