@@ -39,7 +39,7 @@ Structure adaptée à Keras, avec un sous-dossier par classe.
 ## ⚙️ Installation
 
 ```bash
-pip install tensorflow matplotlib seaborn scikit-learn kagglehub
+pip install tensorflow matplotlib seaborn kagglehub
 ```
 ## 🚀 Exécution
 
