@@ -62,11 +62,11 @@ python evaluate.py
 ## 📊 Résultats
 
 ### 📈 Courbes d'apprentissage
-<p align="center"> <img src="assets/accuracy_loss.png" alt="Accuracy_Loss" width="400"/> </p>
+<p> <img src="assets/accuracy_loss.png" alt="Accuracy_Loss" width="500"/> </p>
 
 ### 🧾 Matrice de confusion
 
-<p align="center"> <img src="assets/confusion_matrix.png" alt="Confusion Matrix" width="500"/> </p>
+<p> <img src="assets/confusion_matrix.png" alt="Confusion Matrix" width="500"/> </p>
 
 ### 📋 Exemple de rapport de classification
 ```bash
