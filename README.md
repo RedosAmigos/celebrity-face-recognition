@@ -39,15 +39,6 @@ Structure adaptée à Keras, avec un sous-dossier par classe.
 ## ⚙️ Installation
 
 ```bash
-python -m venv venv
-```
-```bash
-source venv/bin/activate        # Linux/macOS
-```
-```bash
-venv\Scripts\activate           # Windows
-```
-```bash
 pip install tensorflow matplotlib seaborn scikit-learn kagglehub
 ```
 ## 🚀 Exécution
@@ -70,5 +61,5 @@ python evaluate.py
 ```
 ## 📌 Auteurs & Crédits
 
-Dataset par Vishesh1412 sur Kaggle
-Projet développé avec TensorFlow/Keras
+- Dataset par Vishesh1412 sur Kaggle
+- Projet développé avec TensorFlow/Keras
