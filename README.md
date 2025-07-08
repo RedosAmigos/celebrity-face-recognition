@@ -61,14 +61,14 @@ python evaluate.py
 ```
 ## 📊 Résultats
 
-### 📈 Courbes d'apprentissage
+#### 📈 Courbes d'apprentissage
 <p> <img src="assets/accuracy_loss.png" alt="Accuracy_Loss" width="500"/> </p>
 
-### 🧾 Matrice de confusion
+#### 🧾 Matrice de confusion
 
 <p> <img src="assets/confusion_matrix.png" alt="Confusion Matrix" width="500"/> </p>
 
-### 📋 Exemple de rapport de classification
+#### 📋 Exemple de rapport de classification
 ```bash
 === Classification Report ===
                precision    recall  f1-score   support
