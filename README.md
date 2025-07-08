@@ -38,11 +38,12 @@ Structure adaptée à Keras, avec un sous-dossier par classe.
 
 ## ⚙️ Installation
 
-> python -m venv venv
-> source venv/bin/activate        # Linux/macOS
-> venv\Scripts\activate           # Windows
+```bash
+python -m venv venv
+source venv/bin/activate        # Linux/macOS
+venv\Scripts\activate           # Windows
 
-> pip install tensorflow matplotlib seaborn scikit-learn kagglehub
+pip install tensorflow matplotlib seaborn scikit-learn kagglehub
 
 ## 🚀 Exécution
 
