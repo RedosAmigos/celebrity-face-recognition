@@ -1,4 +1,4 @@
-## 🧠 Reconnaissance Faciale de Célébrités avec CNN
+# 🧠 Reconnaissance Faciale de Célébrités avec CNN
 
 Ce projet implémente une solution complète de reconnaissance faciale basée sur un réseau de neurones convolutif (CNN), entraîné sur un dataset de visages de célébrités.
 
