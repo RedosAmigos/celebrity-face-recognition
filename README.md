@@ -38,25 +38,25 @@ Structure adaptée à Keras, avec un sous-dossier par classe.
 
 ## ⚙️ Installation
 
-python -m venv venv
-source venv/bin/activate        # Linux/macOS
-venv\Scripts\activate           # Windows
+> python -m venv venv
+> source venv/bin/activate        # Linux/macOS
+> venv\Scripts\activate           # Windows
 
-pip install tensorflow matplotlib seaborn scikit-learn kagglehub
+> pip install tensorflow matplotlib seaborn scikit-learn kagglehub
 
 ## 🚀 Exécution
 
 Téléchargement du dataset :
-python download_celebrity_dataset.py
+> python download_celebrity_dataset.py
 
 Découpage du dataset :
-python split_celebrity_dataset.py
+> python split_celebrity_dataset.py
 
 Entraînement du modèle :
-python train.py
+> python train.py
 
 Évaluation des performances :
-python evaluate.py
+> python evaluate.py
 
 ## 📌 Auteurs & Crédits
 
