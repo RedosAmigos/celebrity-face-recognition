@@ -59,24 +59,24 @@ python train.py
 ```bash
 python evaluate.py
 ```
-📊 Résultats
+## 📊 Résultats
 
-📈 Courbes d'apprentissage
-<p align="center"> <img src="assets/accuracy_loss.png" width="400"/> </p>
+### 📈 Courbes d'apprentissage
+<p align="center"> <img src="assets/accuracy_loss.png" alt="Accuracy_Loss" width="400"/> </p>
 
-🧾 Matrice de confusion
+### 🧾 Matrice de confusion
 
-<p align="center"> <img src="exemples/confusion_matrix.png" alt="Confusion Matrix" width="500"/> </p>
+<p align="center"> <img src="assets/confusion_matrix.png" alt="Confusion Matrix" width="500"/> </p>
 
-📋 Exemple de rapport de classification
-
+### 📋 Exemple de rapport de classification
+```bash
 === Classification Report ===
                precision    recall  f1-score   support
 
       Celebrity_A       0.89      0.85      0.87        20
       Celebrity_B       0.91      0.95      0.93        22
       ...
-
+```
 ## 📌 Auteurs & Crédits
 
 - Dataset par Vishesh1412 sur Kaggle
