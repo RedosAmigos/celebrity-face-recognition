@@ -1,8 +1,8 @@
-# Reconnaissance Faciale de Célébrités avec CNN
+## Reconnaissance Faciale de Célébrités avec CNN
 
 Ce projet implémente une solution complète de reconnaissance faciale basée sur un réseau de neurones convolutif (CNN), entraîné sur un dataset de visages de célébrités.
 
-## 📁 Préparation du jeu de données
+### 📁 Préparation du jeu de données
 
 #### `download_celebrity_dataset.py`
 
@@ -20,7 +20,7 @@ Divise le dataset téléchargé en trois sous-dossiers :
 
 Structure adaptée à Keras, avec un sous-dossier par classe.
 
-## 🧠 Entraînement et évaluation du modèle
+### 🧠 Entraînement et évaluation du modèle
 
 #### `train.py`
 
@@ -36,12 +36,12 @@ Structure adaptée à Keras, avec un sous-dossier par classe.
 - 📋 Rapport de classification (précision, rappel, F1-score)
 - 🧾 Matrice de confusion avec heatmap Seaborn
 
-## ⚙️ Installation
+### ⚙️ Installation
 
 ```bash
 pip install tensorflow matplotlib seaborn scikit-learn kagglehub
 ```
-## 🚀 Exécution
+### 🚀 Exécution
 
 Téléchargement du dataset :
 ```bash
@@ -59,7 +59,7 @@ python train.py
 ```bash
 python evaluate.py
 ```
-## 📊 Résultats
+### 📊 Résultats
 
 #### 📈 Courbes d'apprentissage
 <p> <img src="assets/accuracy_loss.png" alt="Accuracy_Loss" width="500"/> </p>
