@@ -14,9 +14,9 @@ Télécharge automatiquement le dataset depuis Kaggle.
 #### `split_celebrity_dataset.py`
 
 Divise le dataset téléchargé en trois sous-dossiers :
-- train/ : 70%
-- val/ : 15%
-- test/ : 15%
+- train : 70%
+- val : 15%
+- test : 15%
 
 Structure adaptée à Keras, avec un sous-dossier par classe.
 
@@ -32,7 +32,7 @@ Structure adaptée à Keras, avec un sous-dossier par classe.
 
 #### `evaluate.py`
 
-- 🔍 Évaluation sur les données de test (test/)
+- 🔍 Évaluation sur les données de test
 - 📋 Rapport de classification (précision, rappel, F1-score)
 - 🧾 Matrice de confusion avec heatmap Seaborn
 
