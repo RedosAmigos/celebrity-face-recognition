@@ -4,14 +4,14 @@ Ce projet implémente une solution complète de reconnaissance faciale basée su
 
 ## 📁 Préparation du jeu de données
 
-### `download_celebrity_dataset.py`
+#### `download_celebrity_dataset.py`
 
 Télécharge automatiquement le dataset depuis Kaggle.
 
 - 📦 **Source** : [`vishesh1412/celebrity-face-image-dataset`](https://www.kaggle.com/datasets/vishesh1412/celebrity-face-image-dataset)
 - 📁 **Sortie** : Dossier local contenant les images des célébrités
 
-### `split_celebrity_dataset.py`
+#### `split_celebrity_dataset.py`
 
 Divise le dataset téléchargé en trois sous-dossiers :
 - train/ : 70%
@@ -22,7 +22,7 @@ Structure adaptée à Keras, avec un sous-dossier par classe.
 
 ## 🧠 Entraînement et évaluation du modèle
 
-### `train.py`
+#### `train.py`
 
 - 📊 Prétraitement et augmentation des données (rotation, zoom, translation...)
 - 🧠 Architecture CNN simple avec 3 blocs Conv2D + MaxPooling
@@ -30,7 +30,7 @@ Structure adaptée à Keras, avec un sous-dossier par classe.
 - 📈 Affichage des courbes d’apprentissage
 - 💾 Sauvegarde du modèle au format ".keras"
 
-### `evaluate.py`
+#### `evaluate.py`
 
 - 🔍 Évaluation sur les données de test (test/)
 - 📋 Rapport de classification (précision, rappel, F1-score)
