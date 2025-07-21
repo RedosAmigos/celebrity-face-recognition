@@ -64,11 +64,7 @@ python evaluate.py
 #### 📈 Courbes d'apprentissage
 <p> <img src="assets/accuracy_loss.png" alt="Accuracy_Loss" width="500"/> </p>
 
-#### 🧾 Matrice de confusion
-
-<p> <img src="assets/confusion_matrix.png" alt="Confusion Matrix" width="500"/> </p>
-
-#### 📋 Exemple de rapport de classification
+#### 📋 Rapport de classification
 ```bash
 === Classification Report ===
                precision    recall  f1-score   support
@@ -77,6 +73,9 @@ python evaluate.py
       Celebrity_B       0.91      0.95      0.93        22
       ...
 ```
+#### 🧾 Matrice de confusion
+<p> <img src="assets/confusion_matrix.png" alt="Confusion Matrix" width="500"/> </p>
+
 ## 📌 Auteurs & Crédits
 
 - Dataset par Vishesh1412 sur Kaggle
